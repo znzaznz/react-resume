@@ -1,0 +1,30 @@
+.aside{
+  border-right: 1px solid rgb(204,204,204);
+  padding-top: 115px;
+  margin-bottom: 20px;
+  position: relative;
+  .picture{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+  @media screen and (max-width: 720px) {
+    border-right: none;
+    padding-top: 95px;
+    .picture{
+      width: 115px;
+      height: 120px;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: 40px;
+      transform: translate(-50%, -50%);
+      display: block;
+    }
+  }
+}
