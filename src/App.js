@@ -5,8 +5,8 @@ import Aside from "./view/Aside/Aside";
 
 function App(){
     return (
-        <div className={"resume"}>
-            <div>
+        <div className={"App"}>
+            <div className={"resume"}>
                 <Header/>
                 <Aside/>
                 <Main/>
