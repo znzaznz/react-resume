@@ -1,7 +1,6 @@
 import React from 'react';
 import Section from "../../component/Section/Section";
 import ProjectExperience from "../../component/ProjectExperience/ProjectExperience";
-import "./index.scss"
 
 export default function Main() {
     return (
@@ -12,9 +11,12 @@ export default function Main() {
             </Section>
             <Section name={"项目经历"}>
                 <ProjectExperience/>
+                <ProjectExperience/>
+                <ProjectExperience/>
             </Section>
             <Section name={"开源项目"}>
-
+                <ProjectExperience/>
+                <ProjectExperience/>
             </Section>
             <Section name={"个人评价"}>
                 痴迷技术，喜欢承担有技术难度的工作，爱分享，善于知识的总结梳理

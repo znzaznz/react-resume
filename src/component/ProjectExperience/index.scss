@@ -1,0 +1,19 @@
+.ProjectExperience{
+  padding-bottom: 20px;
+  .linkArea{
+    display: flex;
+    justify-content: space-between;
+    h4{
+      color: black;
+    }
+    div{
+      a{
+        color: #1900ff;
+        margin: 2px;
+      }
+    }
+  }
+  ul{
+    margin-top: 10px;
+  }
+}
