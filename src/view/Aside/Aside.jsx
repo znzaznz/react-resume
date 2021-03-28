@@ -1,6 +1,9 @@
 import React from 'react';
 import Section from "../../component/Section/Section";
 import picture from "../../assets/xiaoznz.jpg"
+import BasicMessage from "../../component/BasicMessage/BasicMessage";
+import ProfessionalSkill from "../../component/ProfessionalSkill/ProfessionalSkill";
+import ContactWays from "../../component/ContactWays/ContactWays";
 import "./index.scss"
 
 export default function Aside() {
@@ -8,16 +11,13 @@ export default function Aside() {
         <aside className={"aside"}>
             <img src={picture} alt="Background" className={'picture'}/>
             <Section name={"基础信息"}>
+                <BasicMessage/>
             </Section>
             <Section name={"专业技能"}>
-                <div>学历:本科</div>
-                <div>工作经验：1年</div>
-                <div>意向薪资：6-8k</div>
+                <ProfessionalSkill/>
             </Section>
             <Section name={"联系方式"} className={"contact"}>
-                <div>学历:本科</div>
-                <div>工作经验：1年</div>
-                <div>意向薪资：6-8k</div>
+                <ContactWays/>
             </Section>
         </aside>
     )

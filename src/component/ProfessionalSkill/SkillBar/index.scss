@@ -1,0 +1,19 @@
+.SkillBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  >.showSkill{
+    width: 60%;
+    background-color: rgb(204,204,204);
+    height: 7px;
+    border-radius: 2px;
+    >div{
+      transition: width 2s;
+      display: block;
+      content: "";
+      border-radius: 2px;
+      background-color: black;
+      height: 7px;
+    }
+  }
+}
