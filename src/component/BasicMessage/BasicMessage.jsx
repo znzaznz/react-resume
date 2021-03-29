@@ -1,20 +1,21 @@
 import React from 'react';
-import "./index.scss"
+import BasicMessageBar from "./BasicMessageBar/BasicMessageBar";
 
 export default function BasicMessage() {
     return (
         <div className={"BasicMessage"}>
+            <BasicMessageBar information={"年龄"} value={"23"}/>
+            <div className={"personalKeyValue"}>
+                <div className={'personalKey'}>
+                    <span>性别</span><span>:</span>
+                </div>
+                <div>男</div>
+            </div>
             <div className={"personalKeyValue"}>
                 <div className={'personalKey'}>
                     <span>学历</span><span>:</span>
                 </div>
                 <div>本科</div>
-            </div>
-            <div className={"personalKeyValue"}>
-                <div className={'personalKey'}>
-                    <span>工作经验</span><span>:</span>
-                </div>
-                <div>一年</div>
             </div>
             <div className={"personalKeyValue"}>
                 <div className={'personalKey'}>

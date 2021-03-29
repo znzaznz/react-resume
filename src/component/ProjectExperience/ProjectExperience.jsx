@@ -1,31 +1,19 @@
 import React from 'react';
 import "./index.scss"
 
-export default function ProjectExperience() {
+export default function ProjectExperience(props) {
     return (
         <div className={"ProjectExperience"}>
             <div className={"linkArea"}>
-                <h4>vue技术栈实现cnode社区</h4>
+                <h4>{props.name}</h4>
                 <div>
-                    <a href={"javascript:;"}>源码链接</a>
-                    <a href={"javascript:;"}>项目预览</a>
+                    <a href={"https://github.com/"}>源码链接</a>
+                    <a href={"https://xiaoznz.gitee.io/monery-website/#/money"}>项目预览</a>
                 </div>
             </div>
             <ul>
                 <li>
-                    你好，我是项目                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-                    你好，我是项目
-
+                    {props.children}
                 </li>
             </ul>
         </div>
