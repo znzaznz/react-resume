@@ -9,7 +9,7 @@
         background-color: #fff;
         padding-bottom: 20px;
         display: grid;
-        grid-template: 1fr 5fr/2fr 9fr;
+        grid-template: 1fr 9fr/2fr 9fr;
         >header{
           grid-row: 1 ;
           grid-column: 1/3;

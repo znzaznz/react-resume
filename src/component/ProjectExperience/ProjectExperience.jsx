@@ -7,8 +7,8 @@ export default function ProjectExperience(props) {
             <div className={"linkArea"}>
                 <h4>{props.name}</h4>
                 <div>
-                    <a href={"https://github.com/"}>源码链接</a>
-                    <a href={"https://xiaoznz.gitee.io/monery-website/#/money"}>项目预览</a>
+                    {props.codeUrl ? <a href={props.codeUrl}>源码链接</a> : ''}
+                    {props.previewUrl ?  <a href={props.previewUrl}>项目预览</a> : ''}
                 </div>
             </div>
             <ul>
