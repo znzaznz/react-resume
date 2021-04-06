@@ -1,7 +1,7 @@
 {
   "name": "react-hooks",
   "version": "0.1.0",
-  "homepage": "https://xiaoznz.com/react-resume",
+  "homepage": "https://xiaoznz.com/resume-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
