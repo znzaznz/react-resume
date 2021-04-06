@@ -16,7 +16,7 @@ export default function Main() {
                 <EducationAndAwards information={"山西省高校话剧："} value={"第三名"}/>
             </Section>
             <Section name={"项目经历"} svg={"icon-xiangmu"}>
-                <ProjectExperience name={"旺财记账(React/Vue)"} codeUrl={"https://github.com/znzaznz/monery-website"} previewUrl={"https://xiaoznz.gitee.io/monery-website/#/money"}>
+                <ProjectExperience name={"旺财记账(React/Vue)"} codeUrl={"https://github.com/znzaznz/monery-website"} previewUrl={"https://xiaoznz.gitee.io/monery-website/#/money"} img={monery}>
                     <p>
                         <span style={{color:"black",fontWeight:"bolder"}}>项目介绍:</span>该项目实现了一个简单的记账功能的网站，这个网站可以拿来每天的记账，计算收支。是由我独立开发的
                         项目,这个项目我分别用<i>React/Vue</i>实现了一遍，并且使用了目前流行的<i>TypeScript</i>来编写代码,然后分别用
@@ -26,20 +26,14 @@ export default function Main() {
                     <p className={"skillsP"}>
                         技术栈：React/React-Router/Redux,Vue/Vuex/Vue-Router,Sass,Babel
                     </p>
-                    <p className={"skillsP"}>
-                        项目效果图：<img src={monery} alt={"记账"}/>
-                    </p>
                 </ProjectExperience>
-                <ProjectExperience name={"导航网站"} codeUrl={"https://github.com/znzaznz/frontedNav"} previewUrl={"http://xiaoznz.gitee.io/frontednav/"}>
+                <ProjectExperience name={"导航网站"} codeUrl={"https://github.com/znzaznz/frontedNav"} previewUrl={"http://xiaoznz.gitee.io/frontednav/"} img={fronted}>
                     <p>
                         <span style={{color:"black",fontWeight:"bolder"}}>项目介绍:</span>这是我用<i>jQuery</i>做的一个前端的导航网站，用<i>Less</i>做其中的样式处理
                         内部的逻辑代码用<i>原生JavaScript</i>做了一个封装,最后应用<i>响应式布局技术</i>,在手机端和pc端都有很好的显示效果
                     </p>
                     <p className={"skillsP"}>
                         技术栈：jQuery,Less,JavaScript
-                    </p>
-                    <p className={"skillsP"}>
-                        项目效果图：<img src={fronted} alt={"记账"}/>
                     </p>
                 </ProjectExperience>
             </Section>

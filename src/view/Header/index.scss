@@ -1,5 +1,5 @@
 .header{
-  background-color: rgb(60,60,62);
+  background-color: rgb(42,47,50);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -13,7 +13,6 @@
     margin-bottom: 20px;
   }
   @media screen and (max-width: 720px){
-    background-color: rgb(60,60,62);
     display: flex;
     justify-content: flex-start;
     align-items: center;

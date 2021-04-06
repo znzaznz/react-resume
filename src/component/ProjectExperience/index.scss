@@ -3,6 +3,7 @@
   padding: 0 10px 0 15px;
   border-bottom: 2px dashed #70707c;
   .liStyle{
+    padding-bottom: 20px;
     .linkArea{
       display: flex;
       justify-content: space-between;
@@ -15,9 +16,22 @@
           margin: 2px;
         }
       }
+    };
+    div{
+      p{
+        padding-top: 10px;
+      }
     }
-    p{
-      margin: 10px 0  20px;
+    .preview{
+        margin-top: 10px;
+        h3{
+          font-size: 16px;
+          color: black;
+        }
+      img{
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
 }
