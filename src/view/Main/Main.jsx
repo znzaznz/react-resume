@@ -65,12 +65,6 @@ export default function Main() {
                     </p>
                 </ProjectExperience>
             </Section>
-            <Section name={"个人评价"}>
-                本人痴迷技术，喜欢承担有技术难度的工作，爱分享，善于知识的总结梳理。
-                <br/>
-                这是我的<i style={{color:"red"}}><a href={"https://juejin.cn/user/2911162523455240"}>博客地址</a></i>,
-                这是我的<i style={{color:"red"}}><a href={"https://github.com/znzaznz"}>github地址</a></i>
-            </Section>
         </main>
     )
 }
