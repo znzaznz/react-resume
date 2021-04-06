@@ -12,11 +12,9 @@ export default function ProjectExperience(props) {
                         {props.previewUrl ?  <a href={props.previewUrl}>项目预览</a> : ''}
                     </div>
                 </div>
-                <ul>
-                    <li>
-                        {props.children}
-                    </li>
-                </ul>
+                <p>
+                    {props.children}
+                </p>
             </div>
         </div>
     )
