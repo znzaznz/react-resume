@@ -1,19 +1,23 @@
 .ProjectExperience{
-  padding-bottom: 20px;
-  .linkArea{
-    display: flex;
-    justify-content: space-between;
-    h4{
-      color: black;
-    }
-    div{
-      a{
-        color: #1900ff;
-        margin: 2px;
+  margin: 20px 0;
+  padding: 0 10px 20px 15px;
+  border-bottom: 2px dashed #70707c;
+  .liStyle{
+    .linkArea{
+      display: flex;
+      justify-content: space-between;
+      h4{
+        color: black;
+      }
+      div{
+        a{
+          color: #1900ff;
+          margin: 2px;
+        }
       }
     }
-  }
-  ul{
-    margin-top: 10px;
+    ul{
+      margin-top: 10px;
+    }
   }
 }
