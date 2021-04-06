@@ -1,7 +1,7 @@
 import React from 'react';
 import "./index.scss"
 
-export default function EducationAndAwards(props) {
+export default function EducationAndAwardsItem(props) {
     return (
         <div className={"EducationAndAwards"}>
             <span className={"span"}>{props.information}</span>
