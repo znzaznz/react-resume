@@ -15,9 +15,11 @@ export default function ProjectExperience(props) {
                 <div>
                     {props.children}
                 </div>
-                {props.img ? <div className={"preview"}>
+                {props.img && props.previewUrl ? <div className={"preview"}>
                     <h3>预览图:</h3>
-                    <img src={props.img} alt="项目预览" />
+                    <a href={props.previewUrl}>
+                        <img src={props.img} alt="项目预览" />
+                    </a>
                 </div> : ""}
             </div>
         </div>

@@ -5,6 +5,7 @@ import BasicMessage from "../../component/BasicMessage/BasicMessage";
 import ProfessionalSkill from "../../component/ProfessionalSkill/ProfessionalSkill";
 import ContactWays from "../../component/ContactWays/ContactWays";
 import "./index.scss"
+import MoreMessage from "../../component/MoreMessage/MoreMessage";
 
 export default function Aside() {
     return (
@@ -20,7 +21,7 @@ export default function Aside() {
                 <ContactWays/>
             </Section>
             <Section name={"更多相关"} svg={"icon-xieboke"}>
-
+                <MoreMessage/>
             </Section>
         </aside>
     )
