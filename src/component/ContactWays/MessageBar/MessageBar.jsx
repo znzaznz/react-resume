@@ -1,13 +1,12 @@
 import React from 'react';
 import "./index.scss"
+import IconSvg from "../../IconSvg/IconSvg";
 
 export default function MessageBar(props) {
     return (
         <div className={"MessageBar"}>
             <div>
-                <svg className="icon" aria-hidden="true">
-                    <use xlinkHref={`#icon-${props.name}`}/>
-                </svg>
+                <IconSvg name={`icon-${props.name}`}/>
             </div>
             <div className={"ways"}><span>{props.contact}</span></div>
         </div>

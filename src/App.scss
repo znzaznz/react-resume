@@ -3,13 +3,11 @@
   justify-content: center;
     @media screen and (min-width: 721px){
       .resume{
-        -webkit-box-shadow: 4px 7px 15px 5px rgba(0,0,0,0.6);
-        box-shadow: 4px 7px 15px 5px rgba(0,0,0,0.6);
         width: 900px;
         background-color: #fff;
         padding-bottom: 20px;
         display: grid;
-        grid-template: 1fr 9fr/2fr 9fr;
+        grid-template: 1fr 11fr/2fr 9fr;
         >header{
           grid-row: 1 ;
           grid-column: 1/3;

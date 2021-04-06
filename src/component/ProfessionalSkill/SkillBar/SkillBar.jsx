@@ -1,5 +1,6 @@
 import React from 'react';
 import "./index.scss"
+import IconSvg from "../../IconSvg/IconSvg";
 
 export default function SkillBar(props) {
 
@@ -10,9 +11,7 @@ export default function SkillBar(props) {
                 <div className={"star"}>
                     {
                         [...Array(props.value)].map((e,i)=>{
-                            return <svg className="icon" aria-hidden="true" key={`i${Math.random()}`}>
-                                <use xlinkHref="#icon-Star-copy"/>
-                            </svg>
+                            return <IconSvg name={"icon-Star-copy"} aria-hidden="true" key={`i${Math.random()}`}/>
                         })
                     }
                 </div>
