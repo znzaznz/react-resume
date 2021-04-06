@@ -9,13 +9,13 @@ import fronted from "../../assets/project Preview/Y{K}652GRJ4Z0_M7$$~DH@Q.png"
 export default function Main() {
     return (
         <main className={"Main"}>
-            <Section name={"教育及获奖"}>
+            <Section name={"教育及获奖"} svg={"icon-x"}>
                 <EducationAndAwards information={"山西大学："} value={"专业排名前20%"}/>
                 <EducationAndAwards information={"科研训练（校园快递点优化）："} value={"二等奖"}/>
                 <EducationAndAwards information={"山西省高校新闻奖："} value={"第三名"}/>
                 <EducationAndAwards information={"山西省高校话剧："} value={"第三名"}/>
             </Section>
-            <Section name={"项目经历"}>
+            <Section name={"项目经历"} svg={"icon-xiangmu"}>
                 <ProjectExperience name={"旺财记账(React/Vue)"} codeUrl={"https://github.com/znzaznz/monery-website"} previewUrl={"https://xiaoznz.gitee.io/monery-website/#/money"}>
                     <p>
                         <span style={{color:"black",fontWeight:"bolder"}}>项目介绍:</span>该项目实现了一个简单的记账功能的网站，这个网站可以拿来每天的记账，计算收支。是由我独立开发的
@@ -43,7 +43,7 @@ export default function Main() {
                     </p>
                 </ProjectExperience>
             </Section>
-            <Section name={"开源项目"}>
+            <Section name={"开源项目"} svg={'icon-kaiyuan'}>
                 <ProjectExperience name={"简历模板(React实现)"} codeUrl={"https://github.com/znzaznz/react-resume"}>
                     <p>
                         <span style={{color:"black",fontWeight:"bolder"}}>项目介绍:</span>

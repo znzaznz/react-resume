@@ -10,14 +10,17 @@ export default function Aside() {
     return (
         <aside className={"aside"}>
             <img src={picture} alt="Background" className={'picture'}/>
-            <Section name={"基础信息"}>
+            <Section name={"基础信息"} svg={"icon-more"}>
                 <BasicMessage/>
             </Section>
-            <Section name={"专业技能"}>
+            <Section name={"专业技能"} svg={"icon-ruanjianjineng"}>
                 <ProfessionalSkill/>
             </Section>
-            <Section name={"联系方式"} className={"contact"}>
+            <Section name={"联系方式"} svg={"icon-duanxin"}>
                 <ContactWays/>
+            </Section>
+            <Section name={"更多相关"} svg={"icon-xieboke"}>
+
             </Section>
         </aside>
     )

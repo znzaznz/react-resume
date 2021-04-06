@@ -4,7 +4,14 @@ import "./index.scss"
 export default function Section(props) {
     return (
         <div className={"section"}>
-            <h1>{props.name}</h1>
+            <header>
+                <div>
+                    <svg className="icon">
+                        <use xlinkHref={`#${props.svg}`} />
+                    </svg>
+                </div>
+                <h1>{props.name}</h1>
+            </header>
             <section>
                 {props.children}
             </section>
